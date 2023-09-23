@@ -14,36 +14,19 @@
         p {
             font-size: 24px;
         }
-        form {
+        section {
             margin-top: 20px;
         }
-        label {
+        a {
             font-size: 18px;
-            display: block;
-            margin-bottom: 10px;
-        }
-        input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
-        textarea {
-            width: 100%;
-            height: 150px;
-            padding: 10px;
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-        button {
+            text-decoration: none;
             background-color: yellow;
             color: black;
             padding: 15px 30px;
-            font-size: 18px;
             border: none;
             cursor: pointer;
         }
-        button:hover {
+        a:hover {
             background-color: black;
             color: white;
         }
@@ -54,18 +37,7 @@
         <h1>Place an Order</h1>
     </header>
     <section>
-        <p>Email usernameamogus@gmail.com for further perusal. In the subject of the email, please state: BETTER CALL MICK, and in the email body, please state your full name, class timings, and any questions.</p>
-    </section>
-    <section>
-        <form action="mailto:usernameamogus@gmail.com" method="post" enctype="text/plain">
-            <label for="fullName">Full Name:</label>
-            <input type="text" id="fullName" name="fullName" required>
-            <label for="classTimings">Class Timings:</label>
-            <input type="text" id="classTimings" name="classTimings" required>
-            <label for="questions">Questions:</label>
-            <textarea id="questions" name="questions" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <p>Email <a href="mailto:usernameamogus@gmail.com">usernameamogus@gmail.com</a> for further perusal.</p>
     </section>
 </body>
 </html>
